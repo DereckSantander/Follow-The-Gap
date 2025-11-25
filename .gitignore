@@ -1,0 +1,33 @@
+# ROS2 Build files
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ROS2 specific
+*.bag
+*.db3
+
+# Temporary files
+*.log
+*.tmp
