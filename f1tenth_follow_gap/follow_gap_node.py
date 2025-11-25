@@ -51,8 +51,8 @@ class FollowGapNode(Node):
         self.race_finished = False  # Indica que completó las 10 vueltas
         
         # ==================== PARÁMETROS DEL ALGORITMO ====================
-        self.declare_parameter('max_speed', 7.0)
-        self.declare_parameter('min_speed', 2.8)
+        self.declare_parameter('max_speed', 9.0)
+        self.declare_parameter('min_speed', 2.0)
         self.declare_parameter('bubble_radius', 0.7)
         self.declare_parameter('gap_threshold', 1.5)
         self.declare_parameter('smoothing_alpha', 0.85)
